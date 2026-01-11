@@ -25,7 +25,7 @@ const HeroSection = () => {
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 backdrop-blur-sm">
           <span className="h-2 w-2 animate-pulse rounded-full bg-primary" />
           <span className="text-sm font-medium text-primary">
-            ✨ 25+ Years Experience | 50,000+ Cases Solved
+            ✨ 30+ Years Experience | 50,000+ Cases Solved
           </span>
         </div>
 
@@ -43,21 +43,8 @@ const HeroSection = () => {
           आज ही <span className="font-semibold text-primary">निःशुल्क परामर्श</span> प्राप्त करें!
         </p>
 
-        {/* Trust Badges */}
-        <div className="mb-10 flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
-          <span className="flex items-center gap-2 rounded-lg border border-border/50 bg-card/50 px-3 py-2 backdrop-blur-sm">
-            🕉️ वैदिक ज्योतिष विशेषज्ञ
-          </span>
-          <span className="flex items-center gap-2 rounded-lg border border-border/50 bg-card/50 px-3 py-2 backdrop-blur-sm">
-            🔮 100% गोपनीय परामर्श
-          </span>
-          <span className="flex items-center gap-2 rounded-lg border border-border/50 bg-card/50 px-3 py-2 backdrop-blur-sm">
-            ⚡ तुरंत समाधान
-          </span>
-        </div>
-
         {/* CTA Buttons */}
-        <div className="flex flex-col gap-4 sm:flex-row">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row">
           <a
             href={`tel:${phoneNumber}`}
             className="group flex items-center justify-center gap-3 rounded-xl bg-gradient-gold px-8 py-4 text-lg font-bold text-primary-foreground shadow-gold transition-all hover:scale-105 hover:shadow-glow"
@@ -75,6 +62,19 @@ const HeroSection = () => {
             <MessageCircle className="h-6 w-6 transition-transform group-hover:animate-bounce-slow" />
             <span>💬 WhatsApp Now</span>
           </a>
+        </div>
+
+        {/* Trust Badges */}
+        <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
+          <span className="flex items-center gap-2 rounded-lg border border-border/50 bg-card/50 px-3 py-2 backdrop-blur-sm">
+            🕉️ वैदिक ज्योतिष विशेषज्ञ
+          </span>
+          <span className="flex items-center gap-2 rounded-lg border border-border/50 bg-card/50 px-3 py-2 backdrop-blur-sm">
+            🔮 100% गोपनीय परामर्श
+          </span>
+          <span className="flex items-center gap-2 rounded-lg border border-border/50 bg-card/50 px-3 py-2 backdrop-blur-sm">
+            ⚡ तुरंत समाधान
+          </span>
         </div>
 
         {/* Scroll indicator */}

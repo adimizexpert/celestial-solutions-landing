@@ -61,6 +61,36 @@ const services = [
     titleHi: "अवैध संबंध समस्या",
     description: "Handle delicate situations with confidentiality",
   },
+  {
+    icon: Sparkles,
+    title: "Lottery Number Vashikaran",
+    titleHi: "लॉटरी नंबर वशीकरण",
+    description: "Attract luck and fortune with powerful vashikaran",
+  },
+  {
+    icon: Users,
+    title: "Black Magic Removal",
+    titleHi: "काला जादू निवारण",
+    description: "Protection and removal of black magic effects",
+  },
+  {
+    icon: Heart,
+    title: "Vashikaran Specialist",
+    titleHi: "वशीकरण विशेषज्ञ",
+    description: "Powerful vashikaran mantras for all purposes",
+  },
+  {
+    icon: Scale,
+    title: "Business Problem",
+    titleHi: "व्यापार समस्या",
+    description: "Solve business losses and attract prosperity",
+  },
+  {
+    icon: Home,
+    title: "Enemy Problem Solution",
+    titleHi: "शत्रु समस्या समाधान",
+    description: "Protection from enemies and evil intentions",
+  },
 ];
 
 const ServicesSection = () => {
